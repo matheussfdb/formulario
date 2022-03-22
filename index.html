@@ -1,0 +1,63 @@
+<!-- 
+  Como fazer comentário no HTML 
+  Hyper Text - Texto com links
+  Markup - Marcações com tags
+  Language - Regras de uma linguagem
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus Barreto - Formulário</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+    />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="input">
+        <form action="">
+          <img src="images/Captura de tela 2022-03-22 143543.png" alt="Capa" />
+          <p>Quais adesivos:</p>
+          <div>
+            <input type="checkbox" id="react" name="react" />
+            <label for="react">React</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="vue" name="vue" />
+            <label for="vue">Vue</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="angular" name="angular" />
+            <label for="angular">Angular</label>
+          </div>
+
+          <div class="contador">
+            <button onclick="diminuir()" type="button">-</button>
+            <p id="resultado">0</p>
+            <button onclick="aumentar()" type="button">+</button>
+          </div>
+
+          <p>Observações:</p>
+          <textarea rows="8" cols="10" maxlength="1000">
+
+  Alguma dúvida? Recado?</textarea
+          >
+          <div class="botao">
+            <button type="submit" id="btn">ENVIAR</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

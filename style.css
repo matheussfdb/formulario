@@ -1,0 +1,117 @@
+/*Cascating Style Sheet*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #892cdf;
+  color: black;
+}
+
+form {
+  background: whitesmoke;
+
+  width: 100%;
+  max-width: 500px;
+
+  margin: 4px auto 4px auto;
+  padding: 1px 1px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  margin-bottom: 6px;
+  margin-top: 12px;
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+form div {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-left: 16px;
+}
+
+form textarea {
+  border-radius: 8px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-left: 16px;
+  margin-right: 30px;
+  width: 93%;
+  border-color: #892cdf;
+  background: #eaedf0;
+  color: gray;
+}
+
+div.input {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+div.contador button {
+  width: 6%;
+
+  border: none;
+  font-size: 26px;
+  border-bottom: 1px;
+
+  border-radius: 6px;
+
+  color: white;
+
+  margin-top: 16px;
+  background-color: #292f6b;
+}
+
+div.contador p {
+  position: relative;
+  display: inline;
+  font-weight: bold;
+}
+
+div.botao button {
+  width: 25%;
+  padding: 8px 0;
+  margin-left: 340px;
+
+  border: none;
+  border-bottom: 1px;
+
+  border-radius: 8px;
+
+  outline: none;
+  font-weight: bold;
+
+  color: white;
+
+  margin-top: 16px;
+  background-color: #292f6b;
+}
+
+div.botao {
+  background: #eaedf0;
+
+  width: 100%;
+  max-width: 500px;
+
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 25px 25px;
+}
